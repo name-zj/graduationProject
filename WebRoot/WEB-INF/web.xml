@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Graduation</display-name>
+  <servlet>
+    <servlet-name>FindAllGoods</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindAllGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindGoodsById</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindGoodsById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindGoodsByUserid</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindGoodsByUserid</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IPostedDetial</servlet-name>
+    <servlet-class>com.zj.servlet.customer.IPostedDetial</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddGoods</servlet-name>
+    <servlet-class>com.zj.servlet.customer.AddGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindCustomerByid</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindCustomerByid</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUserInfo</servlet-name>
+    <servlet-class>com.zj.servlet.customer.UpdateUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindGoodsByName</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindGoodsByName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MFindAllGoods</servlet-name>
+    <servlet-class>com.zj.servlet.manager.MFindAllGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindToBeAuditedGoods</servlet-name>
+    <servlet-class>com.zj.servlet.manager.FindToBeAuditedGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindAllCustomer</servlet-name>
+    <servlet-class>com.zj.servlet.manager.FindAllCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ForbiddenCustomer</servlet-name>
+    <servlet-class>com.zj.servlet.manager.ForbiddenCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindAllBlack</servlet-name>
+    <servlet-class>com.zj.servlet.manager.FindAllBlack</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.zj.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MFindGoodsById</servlet-name>
+    <servlet-class>com.zj.servlet.manager.MFindGoodsById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostedGoods</servlet-name>
+    <servlet-class>com.zj.servlet.manager.PostedGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllGoodsFindDetial</servlet-name>
+    <servlet-class>com.zj.servlet.manager.AllGoodsFindDetial</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindFocusGoods</servlet-name>
+    <servlet-class>com.zj.servlet.customer.FindFocusGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Notice</servlet-name>
+    <servlet-class>com.zj.servlet.customer.Notice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MNotice</servlet-name>
+    <servlet-class>com.zj.servlet.manager.MNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindNotcie</servlet-name>
+    <servlet-class>com.zj.servlet.manager.FindNotcie</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ToAddGoods</servlet-name>
+    <servlet-class>com.zj.servlet.customer.ToAddGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.zj.servlet.customer.Register</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>FindAllGoods</servlet-name>
+    <url-pattern>/findAllGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindGoodsById</servlet-name>
+    <url-pattern>/findGoodsById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindGoodsByUserid</servlet-name>
+    <url-pattern>/findGoodsByUserid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IPostedDetial</servlet-name>
+    <url-pattern>/iPostedDetial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoods</servlet-name>
+    <url-pattern>/addGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustomerByid</servlet-name>
+    <url-pattern>/findCustomerByid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfo</servlet-name>
+    <url-pattern>/updateUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindGoodsByName</servlet-name>
+    <url-pattern>/findGoodsByName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFindAllGoods</servlet-name>
+    <url-pattern>/mFindAllGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindToBeAuditedGoods</servlet-name>
+    <url-pattern>/findToBeAuditedGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllCustomer</servlet-name>
+    <url-pattern>/findAllCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForbiddenCustomer</servlet-name>
+    <url-pattern>/forbiddenCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllBlack</servlet-name>
+    <url-pattern>/findAllBlack</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFindGoodsById</servlet-name>
+    <url-pattern>/mFindGoodsById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostedGoods</servlet-name>
+    <url-pattern>/postedGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllGoodsFindDetial</servlet-name>
+    <url-pattern>/allGoodsFindDetial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindFocusGoods</servlet-name>
+    <url-pattern>/findFocusGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Notice</servlet-name>
+    <url-pattern>/notice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MNotice</servlet-name>
+    <url-pattern>/mNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindNotcie</servlet-name>
+    <url-pattern>/findNotcie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToAddGoods</servlet-name>
+    <url-pattern>/toAddGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
